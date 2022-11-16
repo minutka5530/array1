@@ -3,10 +3,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int [] weight = new int [3];
-        weight[0] = 1;
-        weight[1] = 2;
-        weight[2] = 3;
+        int [] weight = {1, 2, 3};
         for (int i = weight.length -1; i >= 0; i--) {
             System.out.print(weight[i]);{
                 if(i != 0)
